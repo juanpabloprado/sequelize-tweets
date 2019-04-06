@@ -1,4 +1,4 @@
-var Tweet = require("../tweet.js");
+var Tweet = require("./tweet");
 
 // Routes
 module.exports = function(app) {

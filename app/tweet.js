@@ -1,7 +1,7 @@
 // This may be confusing but here Sequelize (capital) references the standard library
 const Sequelize = require("sequelize");
 // sequelize (lowercase) references our connection to the DB.
-const sequelize = require("../config/connection.js");
+const sequelize = require("./connection");
 
 // Creates a "Tweet" model that matches up with DB
 const Tweet = sequelize.define("tweet", {
