@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tweets!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="jumbotron">
+      <h1 class="text-center">Tweets!</h1>
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <p class="cool-font">Name</p>
+          <input class="form-control" type="text" id="author" placeholder="Enter Your Name">
+          <br>
+          <p class="cool-font">Tweet</p>
+          <textarea class="form-control" rows="3" id="tweet-box" placeholder="Enter Tweet Here!"></textarea>
+          <button id="tweet-submit" class="btn btn-lg pull-right">Submit!</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <h2>Tweets</h2>
+          <hr>
+          <div id="tweet-area"></div>
+        </div>
+      </div>
+
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script type="text/javascript" src="js/tweet.js"></script>
+  </body>
+</html>
